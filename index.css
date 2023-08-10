@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.container
+{
+    /* background-color: white; */
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+}
+.header-box
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-box img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.createbtn
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn 
+{
+    background:linear-gradient(#9418fd,#571094);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    margin: 30px 0px 20px;
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#deleteicon
+{
+    width: 20px;
+    height: 20px;
+}
+
+#textbox
+{
+    width: 300px;
+    height: 100%;
+    overflow: scroll;
+    flex-basis: 95%;
+    /* height: 100px; */
+}
+
+.input-box
+{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0px;
+    outline: none;
+    border-radius: 5px;
+    
+    
+}
+
+.input-box img
+{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.container h1
+{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.header-box img{
+    width: 60px;
+}
+
+.create-notes button img
+{
+    width: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.deletebtns
+{
+    cursor: pointer;
+}
